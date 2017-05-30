@@ -32,6 +32,11 @@ module.exports = {
         'media-feature-range-operator-space-after': 'always',
         'media-feature-parentheses-space-inside': 'never',
         'media-feature-colon-space-before': 'never',
-        'media-feature-colon-space-after': 'always'
+        'media-feature-colon-space-after': 'always',
+        'media-feature-name-no-vendor-prefix': true,
+        'at-rule-no-vendor-prefix': true,
+        'property-no-vendor-prefix': true,
+        'selector-no-vendor-prefix': true,
+        'value-no-vendor-prefix': true
     }
 }
