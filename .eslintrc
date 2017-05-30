@@ -1,0 +1,6 @@
+{
+      "extends": "ascribe",
+      "rules": {
+          "semi": 0
+      }
+}
