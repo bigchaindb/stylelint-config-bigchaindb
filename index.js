@@ -15,7 +15,7 @@ module.exports = {
         'selector-attribute-operator-space-after': 'never',
         'selector-attribute-brackets-space-inside': 'never',
         'declaration-block-trailing-semicolon': 'always',
-        'declaration-empty-line-before': false,
+        'declaration-empty-line-before': 'never',
         'declaration-no-important': true,
         'declaration-colon-space-before': 'never',
         'declaration-colon-space-after': 'always',
@@ -39,6 +39,7 @@ module.exports = {
         'selector-no-vendor-prefix': true,
         'value-no-vendor-prefix': true,
         'max-nesting-depth': 3,
-        'selector-max-compound-selectors': 3
+        'selector-max-compound-selectors': 3,
+        'max-empty-lines': 2
     }
 }
