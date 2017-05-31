@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-bigchaindb",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "For consistent CSS across BigchainDB, IPDB & ascribe's repos.",
   "main": "index.js",
   "files": [
