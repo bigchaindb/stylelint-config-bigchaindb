@@ -21,6 +21,8 @@ npm install stylelint-config-bigchaindb
 
 ## Usage
 
+### Setup
+
 Add this to your `.stylelintrc` file:
 
 ```json
@@ -29,7 +31,36 @@ Add this to your `.stylelintrc` file:
 }
 ```
 
-Then use `stylelint` against your css files, e.g.:
+If you really know what you're doing™ you can change or disable individual rules globally in your project:
+
+```json
+{
+    "extends": "stylelint-config-bigchaindb",
+    rules: {
+        "selector-no-type": null,
+        "selector-no-qualifying-type": null
+    }
+}
+```
+
+Or disable blocks inline in your css:
+
+```scss
+/* stylelint-disable selector-list-comma-newline-after  */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: $that-pink-which-burns-my-eyes;
+}
+/* stylelint-enable */
+```
+
+In general, try to never disable anything. Every time you disable even one rule one of those creatures gets killed:
+
+![disable punishment](media/disable-punishment.gif)
+
+### Linting
+
+Use `stylelint` against your css files, e.g.:
 
 ```bash
 stylelint *.scss
@@ -43,21 +74,23 @@ apm install linter-stylelint
 
 ## npm releases
 
-For a new release, execute on the machine where you're logged into your npm account:
+For a new **patch release**, execute on the machine where you're logged into your npm account:
 
 ```bash
 npm run release
 ```
 
-This should suffice for most updates but be aware this always creates a patch update. Command is powered by [`release-it`](https://github.com/webpro/release-it) package. That's what the command does:
+Command is powered by [`release-it`](https://github.com/webpro/release-it) package, defined in the `package.json`.
 
-- create release commit
+That's what the command does without any user interaction:
+
+- create release commit by updating version in `package.json`
 - create tag for that release commit
 - push commit & tag
-- create a new release on GitHub
-- publish to npm
+- create a new release on GitHub, with change log auto-generated from commit messages
+- publish to npm as a new release
 
-If you want to create a minor or major update, use these commands:
+If you want to create a **minor** or **major release**, use these commands:
 
 ```bash
 npm run release-minor
