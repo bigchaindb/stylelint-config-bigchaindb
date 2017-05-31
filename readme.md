@@ -40,6 +40,32 @@ Or lint in your editor with one of the many editor plugins for [stylelint](https
 apm install linter-stylelint
 ```
 
+## npm releases
+
+For a new release, execute on the machine where you're logged into your npm account:
+
+```bash
+npm run release
+```
+
+This should suffice for most updates but be aware this always creates a patch update. Command is powered by [`release-it`](https://github.com/webpro/release-it) package. That's what the command does:
+
+- create release commit
+- create tag for that release commit
+- push commit & tag
+- create a new release on GitHub
+- publish to npm
+
+If you want to create a minor or major update, use these commands:
+
+```bash
+npm run release-minor
+```
+
+```bash
+npm run release-major
+```
+
 ## License
 
 ```
