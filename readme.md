@@ -3,6 +3,7 @@
 > 💅 For consistent CSS across BigchainDB, IPDB & ascribe's repos. Extends on [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
 
 [![css bigchaindb](https://img.shields.io/badge/css-bigchaindb-39BA91.svg)](https://github.com/bigchaindb/stylelint-config-bigchaindb)
+[![js bigchaindb](https://img.shields.io/badge/js-bigchaindb-39BA91.svg)](https://github.com/ascribe/javascript)
 [![npm](https://img.shields.io/npm/v/stylelint-config-bigchaindb.svg)](https://www.npmjs.com/package/stylelint-config-bigchaindb)
 [![Build Status](https://travis-ci.org/bigchaindb/stylelint-config-bigchaindb.svg?branch=master)](https://travis-ci.org/bigchaindb/stylelint-config-bigchaindb)
 [![Greenkeeper badge](https://badges.greenkeeper.io/bigchaindb/stylelint-config-bigchaindb.svg)](https://greenkeeper.io/)
