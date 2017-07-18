@@ -40,6 +40,8 @@ module.exports = {
         'selector-max-compound-selectors': 3,
         'max-empty-lines': 2,
         'selector-max-id': 0,
-        'ignoreAtRules': ['extend', 'import', 'mixin']
+        'at-rule-no-unknown': [true, {
+            'ignoreAtRules': ['extend', 'import', 'mixin']
+        }]
     }
 }
