@@ -39,6 +39,7 @@ module.exports = {
         'max-nesting-depth': 3,
         'selector-max-compound-selectors': 3,
         'max-empty-lines': 2,
-        'selector-max-id': 0
+        'selector-max-id': 0,
+        'ignoreAtRules': ['extend', 'import', 'mixin']
     }
 }
