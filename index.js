@@ -41,7 +41,7 @@ module.exports = {
         'max-empty-lines': 2,
         'selector-max-id': 0,
         'at-rule-no-unknown': [true, {
-            'ignoreAtRules': ['extend', 'import', 'mixin']
+            'ignoreAtRules': ['extend', 'include', 'mixin']
         }]
     }
 }
