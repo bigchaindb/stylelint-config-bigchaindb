@@ -37,8 +37,8 @@ If you really know what you're doing™ you can change or disable individual rul
 ```json
 {
     "extends": "stylelint-config-bigchaindb",
-    rules: {
-        "selector-no-type": null,
+    "rules": {
+        "selector-max-id": 1,
         "selector-no-qualifying-type": null
     }
 }
