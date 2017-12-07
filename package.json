@@ -8,9 +8,9 @@
   ],
   "scripts": {
     "test": "eslint . --ignore-path .gitignore",
-    "release": "./node_modules/release-it/bin/release.js --src.tagName='v%s' --github.release --npm.publish --non-interactive",
-    "release-minor": "./node_modules/release-it/bin/release.js minor --src.tagName='v%s' --github.release --npm.publish --non-interactive",
-    "release-major": "./node_modules/release-it/bin/release.js major --src.tagName='v%s' --github.release --npm.publish --non-interactive"
+    "release": "./node_modules/release-it/bin/release-it.js --src.tagName='v%s' --github.release --npm.publish --non-interactive",
+    "release-minor": "./node_modules/release-it/bin/release-it.js minor --src.tagName='v%s' --github.release --npm.publish --non-interactive",
+    "release-major": "./node_modules/release-it/bin/release-it.js major --src.tagName='v%s' --github.release --npm.publish --non-interactive"
   },
   "repository": {
     "type": "git",
@@ -26,14 +26,16 @@
   },
   "homepage": "https://github.com/bigchaindb/stylelint-config-bigchaindb#readme",
   "devDependencies": {
-    "babel-eslint": "^8.0.0",
-    "eslint": "^4.1.0",
-    "eslint-config-ascribe": "^3.0.4",
-    "eslint-plugin-import": "^2.7.0",
-    "release-it": "^5.0.0"
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.12.1",
+    "eslint-config-ascribe": "^3.0.5",
+    "eslint-plugin-import": "^2.8.0",
+    "release-it": "^5.0.0",
+    "stylelint": "^8.0.0",
+    "stylelint-config-standard": "^18.0.0"
   },
   "peerDependencies": {
     "stylelint": "^8.0.0",
-    "stylelint-config-standard": "^17.0.0"
+    "stylelint-config-standard": "^18.0.0"
   }
 }
