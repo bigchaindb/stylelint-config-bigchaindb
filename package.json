@@ -27,7 +27,7 @@
   "homepage": "https://github.com/bigchaindb/stylelint-config-bigchaindb#readme",
   "devDependencies": {
     "babel-eslint": "^8.0.3",
-    "eslint": "^4.12.1",
+    "eslint": "^5.0.0",
     "eslint-config-ascribe": "^3.0.5",
     "eslint-plugin-import": "^2.8.0",
     "release-it": "^7.0.0",
