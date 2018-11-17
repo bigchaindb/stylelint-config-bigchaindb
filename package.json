@@ -30,7 +30,7 @@
     "eslint": "^5.0.0",
     "eslint-config-ascribe": "^3.0.5",
     "eslint-plugin-import": "^2.8.0",
-    "release-it": "^7.0.0",
+    "release-it": "^8.0.0",
     "stylelint": "^9.1.0",
     "stylelint-config-standard": "^18.1.0"
   },
